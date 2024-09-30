@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Heading -->
+    <h1>Our Product List</h1>
+
+    <!-- Filter Section -->
+    <div class="filter-section">
+        <button class="filter-btn" onclick="filterProducts('All')">All</button>
+        <button class="filter-btn" onclick="filterProducts('Electronics')">Electronics</button>
+        <button class="filter-btn" onclick="filterProducts('Clothing')">Clothing</button>
+        <button class="filter-btn" onclick="filterProducts('Books')">Books</button>
+    </div>
+
+    <!-- Product Display Area -->
+    <div class="product-display-area" id="product-container"></div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+
+</body>
+</html>
+
+
