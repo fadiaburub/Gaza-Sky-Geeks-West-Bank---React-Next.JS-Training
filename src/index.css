@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.filter-section {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.filter-btn {
+  background-color: #007bff; /* Bootstrap primary color */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 5px;
+}
+
+.filter-btn:hover {
+  background-color: #0056b3; /* Darker shade on hover */
+}
+
+.product-display-area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product-card {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 15px;
+  width: 250px; /* Fixed width for product cards */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.product-card:hover {
+  transform: translateY(-3px); /* Lift effect on hover */
+}
+
+.product-name {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+}
+
+.product-category {
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.product-price {
+  font-size: 1.1em;
+  color: #28a745; /* Bootstrap success color */
+  font-weight: bold;
+}
